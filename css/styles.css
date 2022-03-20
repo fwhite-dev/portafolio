@@ -1,22 +1,23 @@
-:root{
-    --azul-oscuro:#0A192F;
+:root {
+    --azul-oscuro: #0A192F;
     --verde-agua: #5FF4D2;
-    --blanco-celeste:#CCD6F6;
+    --blanco-celeste: #CCD6F6;
     --gris-azul: #8892B0;
-    --margin-bottom:1rem;
-    font-size: 15px;
+    --margin-bottom: 1rem;
+    font-size: 16px;
 }
 
 
-body{
+body {
     font-family: 'Fira Code', monospace;
     background-color: var(--azul-oscuro);
 }
-.container{
+
+.container {
     display: grid;
     height: 100vh;
     grid-auto-flow: column;
-    align-items:stretch;
+    align-items: stretch;
 }
 
 
@@ -24,89 +25,81 @@ body{
 /********* HEADER ********/
 /*************************/
 
-.nav__items{
+.nav__items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
-.nav__item__link{
+.nav__item__link {
     text-decoration: none;
     color: var(--blanco-celeste);
-    
-    
-}
-.nav__img{
-    color: #fff;
-}
-
-
-.nav__btn{
-    padding: 0.75rem 1rem;
-    background-color: var(--azul-oscuro);
-    border-color: var(--verde-agua);
-    border-style: 1px solid;
-    border-radius: 5px;
-    cursor: pointer;
-    
-}
-.nav__btn a{
-    text-decoration: none;
-    color: var(--verde-agua);
 }
 
 /*************************/
 /********* MAIN ********/
 /*************************/
-.main{
-    display:flex;
-    flex-direction: column;
-}
-.main__social{
+.main__contenido {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    background-color: #8892B0;
-    text-align: center;    
+    align-items: center;
+
 }
 
-.saludo__text{
+.saludo__text {
     color: var(--verde-agua);
     margin-bottom: 0.75rem;
     margin-bottom: var(--margin-bottom);
 }
-.saludo__title{
+
+.saludo__title {
     color: var(--blanco-celeste);
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: var(--margin-bottom);
 }
-.saludo__subtitle{
+
+.saludo__subtitle {
     color: var(--gris-azul);
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: var(--margin-bottom);
-    
+
 }
-.saludo__img{
+
+.saludo__img {
     display: block;
     margin: 0 auto;
 }
 
-
-
-
-.main__email{
-    background-color: #CCD6F6;
-    
-}
-.main__email a{
-    margin: 100px auto 10px;
-    text-orientation: sideways;
-    writing-mode: vertical-rl;
-    text-decoration: none;
-  
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.hola {
+    display: flex;
+}
 
+.perfil__title span,
+.exp__title span,
+.proyectos__title span {
+    color: var(--verde-agua);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.perfil__title,
+.exp__title,
+.proyectos__title {
+    color: var(--blanco-celeste);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.perfil__img {
+    width: 127px;
+    height: 126px;
+}
