@@ -1,0 +1,112 @@
+:root{
+    --azul-oscuro:#0A192F;
+    --verde-agua: #5FF4D2;
+    --blanco-celeste:#CCD6F6;
+    --gris-azul: #8892B0;
+    --margin-bottom:1rem;
+    font-size: 15px;
+}
+
+
+body{
+    font-family: 'Fira Code', monospace;
+    background-color: var(--azul-oscuro);
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-auto-flow: column;
+    align-items:stretch;
+}
+
+
+/*************************/
+/********* HEADER ********/
+/*************************/
+
+.nav__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.nav__item__link{
+    text-decoration: none;
+    color: var(--blanco-celeste);
+    
+    
+}
+.nav__img{
+    color: #fff;
+}
+
+
+.nav__btn{
+    padding: 0.75rem 1rem;
+    background-color: var(--azul-oscuro);
+    border-color: var(--verde-agua);
+    border-style: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.nav__btn a{
+    text-decoration: none;
+    color: var(--verde-agua);
+}
+
+/*************************/
+/********* MAIN ********/
+/*************************/
+.main{
+    display:flex;
+    flex-direction: column;
+}
+.main__social{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #8892B0;
+    text-align: center;    
+}
+
+.saludo__text{
+    color: var(--verde-agua);
+    margin-bottom: 0.75rem;
+    margin-bottom: var(--margin-bottom);
+}
+.saludo__title{
+    color: var(--blanco-celeste);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-bottom);
+}
+.saludo__subtitle{
+    color: var(--gris-azul);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-bottom);
+    
+}
+.saludo__img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+.main__email{
+    background-color: #CCD6F6;
+    
+}
+.main__email a{
+    margin: 100px auto 10px;
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+    text-decoration: none;
+  
+}
+
+
