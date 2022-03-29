@@ -1,14 +1,16 @@
-const body = document.querySelector('body');
-console.log(body);
 
-const menu = document.getElementById("menu")
-console.log(menu)
-menu.addEventListener("click", () => {
 
-    const divMenu = document.createElement("div")
-    divMenu.className = "hola"
-    divMenu.textContent = "1111111111111"
-    divMenu.style.width = "100px"
-    divMenu.style.background = "#ffff"
-    body.appendChild(divMenu)
-})
+let ubicacionPrincipal = window.pageXOffset;
+
+window.onscroll = () => {
+    let desplazamientoActual = window.pageYOffset;
+    if (ubicacionPrincipal >= desplazamientoActual){
+        document.getElementById("nav").style.top = "0";
+    } else {
+        document.getElementById("nav").style.top = "-100px"
+    }
+    ubicacionPrincipal=desplazamientoActual;
+}
+
+const btnHam = document.getElementById("ham")
+console.log(btnHam)

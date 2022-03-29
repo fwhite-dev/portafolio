@@ -20,59 +20,63 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <nav class="nav">
+    <div   class="container">
+        <header   class="header">
+            <nav  id="nav" class="nav">
+                <a class="logo" href="#inicio">
+                    <img  src="assset/icons-nav/Logo.svg" alt="">
+                </a>
                 <ul class="nav__items">
                     <li class="nav__item">
-                        <a class="nav__item__link" href="#">
-                            <img src="assset/icons-nav/bx-menu-alt-right
-                                    1.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="nav__item">
                         <a class="nav__item__link" href="#perfil">
-                            <img src="assset/icons-nav/bx-user.svg" alt="">
+                            <img src="assset/icons-nav/bx-VERDEuser.svg" alt="">
+                            <div>
+                                Perfil
+                            </div>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a class="nav__item__link" href="#experiencia">
-                            <img src="assset/icons-nav/bx-trending-up.svg" alt="">
+                            <img src="assset/icons-nav/bx-VERDEtrending-up.svg" alt="">
+                            <div>
+                                Experiencia
+                            </div>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a class="nav__item__link" href="#proyectos">
-                            <img src="assset/icons-nav/bx-briefcase-alt
-                                    1.svg" alt="">
+                            <img src="assset/icons-nav/bx-VERDEbriefcase-alt 2.svg" alt="">
+                            <div>
+                                Proyectos
+                            </div>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a class="nav__item__link" href="#contacto">
-                            <img src="assset/icons-nav/bx-conversation.svg" alt="">
+                            <img src="assset/icons-nav/bx-VERDEconversation.svg" alt="">
+                            <div>
+                                Contacto
+                            </div>
                         </a>
                     </li>
-                    <li>
-                        <img src="assset/icons-nav/bxl-linkedin 3.svg" alt="">
-                    </li>
-                    <li>
-                        <img src="assset/icons-nav/bxl-git 3.svg" alt="">
-                    </li>
-
-
                     <li class="nav__item">
-                        <img src="assset/icons-nav/bx-download 1.svg" alt="">
-                        <!-- <button class="nav__btn">
-                        <a href="assset/CV_Federico_Blanco.pdf" download="CV-Federico-Blanco">Descarga CV</a>
-                    </button> -->
+                        <button class="nav__descarga">
+                            <a href="assset/CV_Federico_Blanco.pdf" download="CV-Federico-Blanco">Descargar CV</a>
+                        </button>
                     </li>
                 </ul>
+                <button id="ham"class="ham" type="button">
+                    <span class="br-1"></span>
+                    <span class="br-2"></span>
+                    <span class="br-3"></span>
+                </button>
             </nav>
 
         </header>
 
         <main class="main">
             <section class="main__contenido">
-                <article class="saludo">
+                <article id="inicio" class="saludo">
                     <p class="saludo__text saludo__text--inicial">Hola, mi
                         nombre es:</p>
                     <h1 class="saludo__title">Federico Blanco</h1>
@@ -83,10 +87,10 @@
                     <img class="saludo__img" src="assset/undraw_programming_re_kg9v 1.png" alt="">
                 </article>
 
-                <article class="perfil">
+                <article id="perfil" class="perfil">
                     <div class="perfil__title__container">
                         <h2 class="perfil__title"><span>0.1. </span>Perfil</h2>
-                        <div class="perfil__linea"></div>
+                        <div class="linea linea--perfil"></div>
                     </div>
                     <p class="perfil__text">
                         Soy apasionado por las tecnologías, <span>
@@ -106,10 +110,10 @@
                     <img class="perfil__img" src="assset/perfil__img.png" alt="foto de perfil">
                 </article>
 
-                <article class="exp">
+                <article id="experiencia" class="exp">
                     <div class="exp__title__container">
                         <h2 class="exp__title"><span>0.2. </span>Experiencia</h2>
-                        <div class="exp__linea"></div>
+                        <div class="linea linea--exp"></div>
                     </div>
                     <div class="exp__card">
                         <p class="exp__text">
@@ -191,23 +195,64 @@
                     </div>
                 </article>
 
-                <article class="proyectos">
-                    <h2 class="proyectos__title"><span>0.3. </span>Proyectos</h2>
-                    <div class="proyecto___card"> <img src="assset/img-proyectos/color.png" alt="">
+                <article id="proyectos" class="proyectos">
+                    <div class="proyectos__title__container">
+                        <h2 class="proyectos__title"><span>0.3. </span>Proyectos</h2>
+                        <div class="linea linea--proyectos"></div>
                     </div>
-                    <div class="proyecto___card"> <img src="assset/img-proyectos/todo.png" alt="">
+                  
+
+                    <div class="proyecto___card3">
+                       <div class="card__img">
+                            <img  src="assset/icons-nav/bx-folder 2.svg" alt="">
+                       </div>
+                       <div class="card__link">
+                            <a target="_blank" href="https://fde90.github.io/color-game/">
+                                <img src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                            </a>
+                            <a target="_blank" href="https://fde90.github.io/color-game/">
+                                <img src="assset/icons-nav/Vector.svg" alt="">
+                            </a>
+                       </div>
+                        <div class="card__description">
+                            <h2>Color Game</h2>
+                            <p>Juego cuyo objetivo es adivinar el color de un codigo rgb.</p>
+                            <div class="card__description__tecno">
+                                <div>HTML</div>
+                                <div>CSS</div>
+                                <div>JavaScript</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="proyecto___card"> <img src="assset/img-proyectos/clima.png" alt="">
+                    <div class="proyecto___card3">
+                       <div class="card__img">
+                            <img  src="assset/icons-nav/bx-folder 2.svg" alt="">
+                       </div>
+                       <div>
+                            <a target="_blank" href="https://fde90.github.io/color-game/">
+                                <img src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                            </a>
+                            <a target="_blank" href="https://fde90.github.io/color-game/">
+                                <img src="assset/icons-nav/Vector.svg" alt="">
+                            </a>
+                       </div>
+                        <div class="card__description">
+                            <h2>Color Game</h2>
+                            <p>Juego cuyo objetivo es adivinar el color de un codigo rgb</p>
+                            <div>
+                                <div>HTML</div>
+                                <div>CSS</div>
+                                <div>JavaScript</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="proyecto___card"> <img src="assset/img-proyectos/minialura.png" alt=""> </div>
-                    <div class="proyecto___card"> <img src="assset/img-proyectos/grid.png" alt="">
-                    </div>
-                    <div class="proyecto___card"> <img src="assset/img-proyectos/flexbox.png" alt=""> </div>
+
+
                 </article>
             </section>
 
 
-            <!-- <section class="main__social">
+            <section class="main__social">
             <div>
                 <a target="_blank" href="https://www.linkedin.com/in/federico-blanco-590095225/">
                     <img src="assset/bxl-linkedin 3.svg" alt="">
@@ -218,10 +263,10 @@
                     <img src="assset/bxl-git 3.svg" alt="">
                 </a>
             </div>
-        </section> -->
-            <!-- <section class="main__email">
+        </section>
+            <section class="main__email">
             <a href="mailto:fdewhite@gmail.com">fdewhite@gmail.com</a>
-        </section> -->
+        </section>
         </main>
     </div>
 
