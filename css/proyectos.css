@@ -1,7 +1,7 @@
 
 /********* proyectos **********/
 .proyectos {
-    width: 650px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,11 +16,18 @@
 
 }
 
+.contenedor__cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+
+}
 /* proyecto color-game */
 .proyecto___card {
     width: 340px;
     height: 300px;
-    margin-bottom: 5rem;
     background-color: #112240;
     display: flex;
     flex-direction: column;

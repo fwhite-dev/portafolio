@@ -12,17 +12,15 @@
 }
 
 .saludo__title {
-    width: 50%;
     color: var(--blanco-celeste);
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-weight: 600;
     margin: 0 0 2rem 1rem;
 }
 
 .saludo__subtitle {
-    width: 90%;
     color: var(--gris-azul);
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 600;
     margin: 0 0 2rem 1rem;
 
@@ -42,9 +40,8 @@
 }
 
 .saludo__img {
+    width: 500px;
     display: block;
     margin: 0 auto;
-
-
-
 }
+

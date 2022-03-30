@@ -18,9 +18,11 @@
     margin-top: 30px;
     color: var(--blanco-celeste)
 }
+.logo img{
+    width: 50px;
+}
 
 .nav__items {
-    max-width: 850px;
     margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
