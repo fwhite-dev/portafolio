@@ -1,0 +1,84 @@
+/********* FOOTER ********/
+/*************************/
+.contacto {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.contacto__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__text span {
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    display: block;
+    color: var(--verde-agua);
+    margin-bottom: 2rem;
+}
+
+.contacto__text h2 {
+    color: var(--blanco-celeste);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.contacto__text p {
+    font-size: 1rem;
+    color: var(--blanco-celeste);
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.contacto__btn__email {
+    border: 1px solid var(--verde-agua);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 15px;
+    margin-bottom: 4rem;
+    transition: background-color 0.4s;
+}
+
+.contacto__btn__email:hover {
+    background-color: rgba(95, 244, 210, 0.1)
+    
+    
+
+}
+.contacto__medios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.contacto__redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contacto__redes a img {
+    margin-left: 10px;
+    width: 32px;
+}
+
+.contacto__btn__email a {
+    color: var(--verde-agua);
+    text-decoration: none;
+}
+
+.copy{
+    margin:1rem;
+    font-family: 'Fira Code', monospace;
+    font-weight:100;
+    font-size:0.8rem;
+    color: var(--gris-azul)
+}

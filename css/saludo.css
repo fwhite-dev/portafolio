@@ -1,0 +1,50 @@
+/********* saludo **********/
+.saludo {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1.875;
+}
+
+.saludo__text--inicial {
+    font-family: 'Fira Code', monospace;
+
+}
+
+.saludo__title {
+    width: 50%;
+    color: var(--blanco-celeste);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 0 2rem 1rem;
+}
+
+.saludo__subtitle {
+    width: 90%;
+    color: var(--gris-azul);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 2rem 1rem;
+
+}
+
+.saludo__text {
+    width: 90%;
+    color: var(--verde-agua);
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 0 3rem 1rem;
+    line-height: 1.5;
+}
+
+.saludo__text--gris {
+    color: var(--gris-azul)
+}
+
+.saludo__img {
+    display: block;
+    margin: 0 auto;
+
+
+
+}

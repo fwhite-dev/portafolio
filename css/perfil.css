@@ -1,0 +1,59 @@
+/********* perfil **********/
+.perfil {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.perfil__title__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+.perfil__title span,
+.exp__title span,
+.proyectos__title span {
+    color: var(--verde-agua);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.perfil__title,
+.exp__title,
+.proyectos__title {
+    color: var(--blanco-celeste);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.perfil__text {
+    color: var(--gris-azul);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.perfil__text span {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--verde-agua);
+}
+
+.perfil__img {
+
+    width: 200px;
+    height: 200px;
+    background-image: url(../assset/perfil__img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 3rem;
+    box-shadow: 5px 5px var(--verde-agua);
+}

@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="css/reset.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/saludo.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
     <!-- GOOGLE FONTS -->
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
@@ -20,11 +29,11 @@
 </head>
 
 <body>
-    <div   class="container">
-        <header   class="header">
-            <nav  id="nav" class="nav">
+    <div class="container">
+        <header class="header">
+            <nav id="nav" class="nav">
                 <a class="logo" href="#inicio">
-                    <img  src="assset/icons-nav/Logo.svg" alt="">
+                    <img src="assset/icons-nav/Logo.svg" alt="">
                 </a>
                 <ul class="nav__items">
                     <li class="nav__item">
@@ -65,7 +74,7 @@
                         </button>
                     </li>
                 </ul>
-                <button id="ham"class="ham" type="button">
+                <button id="ham" class="ham" type="button">
                     <span class="br-1"></span>
                     <span class="br-2"></span>
                     <span class="br-3"></span>
@@ -107,7 +116,8 @@
                         programador.
                     </p>
 
-                    <img class="perfil__img" src="assset/perfil__img.png" alt="foto de perfil">
+                    <div class="perfil__img">
+                    </div>
                 </article>
 
                 <article id="experiencia" class="exp">
@@ -118,6 +128,10 @@
                     <div class="exp__card">
                         <p class="exp__text">
                             <span>Practica en desarrollo web</span> <br>
+                            <a target="_blank"
+                                href="https://app.aluracursos.com/degree/certificate/e53226f5-9a1c-4965-862f-99e5b3f29fd0">
+                                <img src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                            </a>
                             <span>Alura Latam</span> <br>
                             Enero - Marzo 2022 <br>
                             A lo largo del programa Oracle Next Education
@@ -134,6 +148,10 @@
                     <div class="exp__card">
                         <p class="exp__text">
                             <span>Practica en desarrollo web</span> <br>
+                            <a target="_blank"
+                                href="https://www.linkedin.com/feed/update/urn:li:activity:6879737185298391040/">
+                                <img src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                            </a>
                             <span>Plataforma 5 - Coding Bootcamp</span><br>
                             Enero - Marzo 2022 <br>
                             A lo largo del programa Oracle Next
@@ -164,17 +182,17 @@
                             </div>
 
                             <div> <img src="assset/logos-tecnologias/bx-play 1.svg" alt="">
-                                <p>CSS 3</p>
-                            </div>
-                            <div> <img src="assset/logos-tecnologias/bx-play 1.svg" alt="">
                                 <p>JavaScript</p>
-
-                            </div>
-                            <div> <img src="assset/logos-tecnologias/bx-play 1.svg" alt="">
-                                <p>Python</p>
                             </div>
                             <div> <img src="assset/logos-tecnologias/bx-play 1.svg" alt="">
                                 <p>Figma</p>
+
+                            </div>
+                            <div> <img src="assset/logos-tecnologias/bx-play 1.svg" alt="">
+                                <p>CCS 3</p>
+                            </div>
+                            <div> <img src="assset/logos-tecnologias/bx-play 1.svg" alt="">
+                                <p>Pyton</p>
                             </div>
                             <div> <img src="assset/logos-tecnologias/bx-play 1.svg" alt="">
                                 <p>Git</p>
@@ -200,23 +218,49 @@
                         <h2 class="proyectos__title"><span>0.3. </span>Proyectos</h2>
                         <div class="linea linea--proyectos"></div>
                     </div>
-                  
 
-                    <div class="proyecto___card3">
-                       <div class="card__img">
-                            <img  src="assset/icons-nav/bx-folder 2.svg" alt="">
-                       </div>
-                       <div class="card__link">
-                            <a target="_blank" href="https://fde90.github.io/color-game/">
-                                <img src="assset/icons-nav/bx-link-external 2.svg" alt="">
-                            </a>
-                            <a target="_blank" href="https://fde90.github.io/color-game/">
-                                <img src="assset/icons-nav/Vector.svg" alt="">
-                            </a>
-                       </div>
+
+                    <div class="overlay">
+                        <div class="proyecto___card">
+                            <div class="card__img">
+                                <img class="card__img__logo" src="assset/icons-nav/bx-folder 2.svg" alt="">
+                                <div class="card__link">
+                                    <a target="_blank" href="https://fde90.github.io/color-game/">
+                                        <img class="card__link__img" src="assset/icons-nav/bx-link-external 2.svg"
+                                            alt="">
+                                    </a>
+                                    <a target="_blank" href="https://fde90.github.io/color-game/">
+                                        <img class="card__link__img" src="assset/icons-nav/Vector.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card__description">
+                                <h2>Color Game</h2>
+                                <p>Juego cuyo objetivo es adivinar el color de un codigo rgb.</p>
+                                <div class="card__description__tecno">
+                                    <div>HTML</div>
+                                    <div>CSS</div>
+                                    <div>JavaScript</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proyecto___card">
+                        <div class="card__img">
+                            <img class="card__img__logo" src="assset/icons-nav/bx-folder 2.svg" alt="">
+                            <div class="card__link">
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                                </a>
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/Vector.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
                         <div class="card__description">
-                            <h2>Color Game</h2>
-                            <p>Juego cuyo objetivo es adivinar el color de un codigo rgb.</p>
+                            <h2>Weather Chanel</h2>
+                            <p>Web para informarse del clima de su ciudad</p>
                             <div class="card__description__tecno">
                                 <div>HTML</div>
                                 <div>CSS</div>
@@ -224,22 +268,69 @@
                             </div>
                         </div>
                     </div>
-                    <div class="proyecto___card3">
-                       <div class="card__img">
-                            <img  src="assset/icons-nav/bx-folder 2.svg" alt="">
-                       </div>
-                       <div>
-                            <a target="_blank" href="https://fde90.github.io/color-game/">
-                                <img src="assset/icons-nav/bx-link-external 2.svg" alt="">
-                            </a>
-                            <a target="_blank" href="https://fde90.github.io/color-game/">
-                                <img src="assset/icons-nav/Vector.svg" alt="">
-                            </a>
-                       </div>
+
+                    <div class="proyecto___card">
+                        <div class="card__img">
+                            <img class="card__img__logo" src="assset/icons-nav/bx-folder 2.svg" alt="">
+                            <div class="card__link">
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                                </a>
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/Vector.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
                         <div class="card__description">
-                            <h2>Color Game</h2>
-                            <p>Juego cuyo objetivo es adivinar el color de un codigo rgb</p>
-                            <div>
+                            <h2>To Do List</h2>
+                            <p>Web para realizar una lista tareas</p>
+                            <div class="card__description__tecno">
+                                <div>HTML</div>
+                                <div>CSS</div>
+                                <div>JavaScript</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proyecto___card">
+                        <div class="card__img">
+                            <img class="card__img__logo" src="assset/icons-nav/bx-folder 2.svg" alt="">
+                            <div class="card__link">
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                                </a>
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/Vector.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card__description">
+                            <h2>Mini Alura</h2>
+                            <p>Web de cursos</p>
+                            <div class="card__description__tecno">
+                                <div>HTML</div>
+                                <div>CSS</div>
+                                <div>JavaScript</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proyecto___card">
+                        <div class="card__img">
+                            <img class="card__img__logo" src="assset/icons-nav/bx-folder 2.svg" alt="">
+                            <div class="card__link">
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/bx-link-external 2.svg" alt="">
+                                </a>
+                                <a target="_blank" href="https://fde90.github.io/color-game/">
+                                    <img class="card__link__img" src="assset/icons-nav/Vector.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card__description">
+                            <h2>Apeperia</h2>
+                            <p>Web de ventas de servicios web</p>
+                            <div class="card__description__tecno">
                                 <div>HTML</div>
                                 <div>CSS</div>
                                 <div>JavaScript</div>
@@ -248,26 +339,40 @@
                     </div>
 
 
+
                 </article>
             </section>
 
-
-            <section class="main__social">
-            <div>
-                <a target="_blank" href="https://www.linkedin.com/in/federico-blanco-590095225/">
-                    <img src="assset/bxl-linkedin 3.svg" alt="">
-                </a>
-            </div>
-            <div >
-                <a target="_blank" href="https://github.com/FDE90">
-                    <img src="assset/bxl-git 3.svg" alt="">
-                </a>
-            </div>
-        </section>
-            <section class="main__email">
-            <a href="mailto:fdewhite@gmail.com">fdewhite@gmail.com</a>
-        </section>
         </main>
+
+        <footer id="contacto" class="contacto">
+            <div class="contacto__text">
+                <span>0.4.¿Que sigue?</span>
+                <h2>Ponerce en contacto</h2>
+                <p>Estoy buscando nuevas oportunidades, mi email simpre esta disponible para te respondere a la brevedad
+                </p>
+            </div>
+            <address class="contacto__medios">
+                <button class="contacto__btn__email">
+                    <a href="mailto:fdewhite@gmail.com">Escribir email</a>
+                </button>
+                <div class="contacto__redes">
+                    <a target="_blank" href="https://www.linkedin.com/in/federico-blanco-590095225/">
+                        <img src="assset/icons-nav/bxl-linkedin-square 1.svg" alt="">
+                    </a>
+
+                    <a target="_blank" href="https://github.com/FDE90">
+                        <img src="assset/icons-nav/bxl-github 1.svg" alt="">
+                    </a>
+                </div>
+            </address>
+            <span class="copy">Diseñado y construido por Federico Blanco</span>
+        </footer>
+
+
+
+
+
     </div>
 
 

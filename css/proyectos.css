@@ -1,0 +1,75 @@
+
+/********* proyectos **********/
+.proyectos {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.proyectos__title__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+/* proyecto color-game */
+.proyecto___card {
+    width: 340px;
+    height: 300px;
+    margin-bottom: 5rem;
+    background-color: #112240;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card__img {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card__img__logo {
+    width: 60px;
+}
+
+.card__link__img {
+    width: 25px;
+}
+
+.card__link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card__link a {
+    margin-left: 1rem;
+}
+
+.card__description {
+    margin: 0 auto;
+    width: 80%;
+    color: var(--blanco-celeste)
+}
+
+.card__description h2 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.card__description__tecno {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-evenly;
+}
+
