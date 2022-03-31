@@ -13,4 +13,10 @@ window.onscroll = () => {
 }
 
 const btnHam = document.getElementById("ham")
+const enlaces = document.getElementById("nav__items")
 console.log(btnHam)
+console.log(enlaces)
+
+btnHam.addEventListener("click",()=>{
+    enlaces.classList.toggle("activado")
+})

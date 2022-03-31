@@ -14,7 +14,7 @@
         width: 100vw;
         background-color: #112240;
         margin: 0;
-        /* display: none; */
+        display: none;
     }
 
     .nav__item {
@@ -70,6 +70,6 @@
 
 }
 
-.nav__items-ativado {
+.nav__items.activado {
     display: flex;
 }
