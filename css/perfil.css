@@ -19,8 +19,9 @@
 .exp__title span,
 .proyectos__title span {
     color: var(--verde-agua);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
+    font-family: 'Fira Code', monospace;
 }
 
 .perfil__title,

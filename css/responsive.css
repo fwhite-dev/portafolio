@@ -2,6 +2,7 @@
 /*************************/
 @media (max-width: 768px) {
 
+
     .logo {
         display: none;
     }
@@ -35,7 +36,7 @@
         position: absolute;
         top: 10px;
         right: 35px;
-        display: block
+        display: block;
     }
 
     .nav__descarga {
@@ -52,6 +53,30 @@
         width: 370px;
     }
 
+    .saludo__text,
+    .perfil__text,
+    .exp__text {
+        font-size: 16px;
+    }
+
+    .saludo__title,
+    .saludo__subtitle,
+    .contacto__title {
+        font-size: 40px;
+    }
+
+    .perfil__title,
+    .exp__title,
+    .proyectos__title {
+        font-size: 26px;
+    }
+
+    .perfil__text span,
+    .exp__text span {
+        font-size: 16px;
+    }
+
+
     .saludo__img {
         width: 250px;
     }
@@ -60,16 +85,36 @@
         width: 370px;
     }
 
+
     .exp {
         width: 370px;
     }
-
-    .proyectos {
-        width: 370px;
+    .linea--exp{
+        width: 130px;
     }
 
-}
+    .proyectos {
+        width: 370px
+    }
 
-.nav__items.activado {
-    display: flex;
+    .contenedor__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyecto___card h2 {
+        font-size: 20px;
+
+    }
+
+    .proyecto___card p {
+        font-size: 16px;
+
+    }
+
+
+
+    .nav__items.activado {
+        display: flex;
+    }
 }

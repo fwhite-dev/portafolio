@@ -19,13 +19,13 @@
 
 .contacto__text span {
     font-family: 'Fira Code', monospace;
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: block;
     color: var(--verde-agua);
     margin-bottom: 2rem;
 }
 
-.contacto__text h2 {
+.contacto__title {
     color: var(--blanco-celeste);
     font-size: 3rem;
     font-weight: 600;
@@ -35,7 +35,7 @@
 .contacto__text p {
     font-size: 1rem;
     color: var(--blanco-celeste);
-    width: 300px;
+    width: 400px;
     margin-bottom: 2rem;
 }
 
