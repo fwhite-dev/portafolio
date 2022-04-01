@@ -6,6 +6,7 @@
     flex-direction: column;
     margin-bottom: 5rem;
     align-items: center;
+    z-index: -1;
 }
 
 .exp__card {
