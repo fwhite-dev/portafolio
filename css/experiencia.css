@@ -87,3 +87,12 @@
 .exp__logo img {
     width: 40px;
 }
+.exp__text{
+    position: relative;
+}
+.certificado__alura, .certificado__p5{
+    position: absolute;
+    top: 0px;
+    right: 50px
+
+}

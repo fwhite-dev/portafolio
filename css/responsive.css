@@ -6,7 +6,7 @@
     .main__contenido,
     .contacto {
         width: 320px;
-        margin: 2.5rem 10px 0 10px;
+        margin: 2.5rem auto;
     }
 
     /********* AGRUPADOS ********/
@@ -127,8 +127,18 @@
 
     .exp__tecnologias img {
         width: 16px;
+    }
+
+    .exp__text{
+        position: relative;
+    }
+    .certificado__alura, .certificado__p5{
+        position: absolute;
+        top: 0px;
+        right: 10px
 
     }
+
 
     .linea--exp {
         width: 60px
@@ -161,6 +171,7 @@
     }
 
     /**CONTACTO**/
+
     .contacto__title {
         font-size: 30px;
     }
