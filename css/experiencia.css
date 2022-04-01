@@ -6,7 +6,7 @@
     flex-direction: column;
     margin-bottom: 5rem;
     align-items: center;
-    z-index: -1;
+
 }
 
 .exp__card {
@@ -92,8 +92,10 @@
     position: relative;
 }
 .certificado__alura, .certificado__p5{
+    
     position: absolute;
     top: 0px;
-    right: 50px
+    right: 50px;
+    cursor: pointer;
 
 }
