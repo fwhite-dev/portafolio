@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.contacto__text span {
+.contacto__subtitle{
     font-family: 'Fira Code', monospace;
     font-size: 1.5rem;
     display: block;
@@ -26,17 +26,23 @@
 }
 
 .contacto__title {
+   
     color: var(--blanco-celeste);
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2rem;
 }
 
-.contacto__text p {
+.contacto__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 1rem;
     color: var(--blanco-celeste);
-    width: 400px;
     margin-bottom: 2rem;
+    
+}.contacto__text{
+    width: 400px;
 }
 
 .contacto__btn__email {

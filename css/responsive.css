@@ -3,6 +3,47 @@
 @media (max-width: 768px) {
 
 
+    .main__contenido,
+    .contacto {
+        width: 320px;
+        margin: 2.5rem 10px 0 10px;
+    }
+
+    /********* AGRUPADOS ********/
+
+
+
+    .perfil__title span,
+    .exp__title span,
+    .proyectos__title span {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .saludo__text,
+    .perfil__text,
+    .exp__text {
+        font-size: 16px;
+    }
+
+    .saludo__title,
+    .saludo__subtitle{
+        font-size: 40px;
+    }
+
+    .perfil__title,
+    .exp__title,
+    .proyectos__title {
+        font-size: 26px;
+    }
+
+    .perfil__text span,
+    .exp__text span {
+        font-size: 16px;
+    }
+
+
+    /********* NAV ********/
     .logo {
         display: none;
     }
@@ -43,60 +84,63 @@
         margin: 0 auto;
     }
 
-    .main__contenido {
-        margin-top: 2.5rem;
-        width: 370px;
-    }
 
+
+    /**SALUDO**/
     .saludo {
         margin: 0;
         width: 370px;
     }
 
-    .saludo__text,
-    .perfil__text,
-    .exp__text {
-        font-size: 16px;
-    }
-
-    .saludo__title,
-    .saludo__subtitle,
-    .contacto__title {
-        font-size: 40px;
-    }
-
-    .perfil__title,
-    .exp__title,
-    .proyectos__title {
-        font-size: 26px;
-    }
-
-    .perfil__text span,
-    .exp__text span {
-        font-size: 16px;
-    }
 
 
     .saludo__img {
         width: 250px;
     }
 
-    .perfil {
-        width: 370px;
+    /**PERFIL**/
+    .linea--perfil{
+        width: 140px;
     }
 
-
+    /**EXPERIENCIA**/
     .exp {
-        width: 370px;
-    }
-    .linea--exp{
-        width: 130px;
+        margin-top: 5rem;
+
     }
 
+    .exp__card {
+        width: 320px;
+
+    }
+
+    .exp__tecnologias {
+        column-gap: 15px;
+        row-gap: 25px;
+    }
+
+    .exp__tecnologias div p {
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+
+    .exp__tecnologias img {
+        width: 16px;
+
+    }
+
+    .linea--exp {
+        width: 60px
+    }
+
+    /**PROYECTOS**/
     .proyectos {
         width: 370px
     }
-
+    .linea--proyectos{
+        width: 120px;
+    }
     .contenedor__cards {
         display: flex;
         flex-direction: column;
@@ -112,9 +156,22 @@
 
     }
 
-
-
     .nav__items.activado {
         display: flex;
+    }
+
+    /**CONTACTO**/
+    .contacto__title {
+        font-size: 30px;
+    }
+
+    .contacto__subtitle {
+        font-size: 20px;
+    }
+
+    .contacto__text {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
     }
 }

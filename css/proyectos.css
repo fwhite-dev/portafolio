@@ -35,6 +35,12 @@
     align-items: center;
 }
 
+.proyecto___card:hover{
+    transform: translateY(-4%);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
+}
+
 .card__img {
     width: 100%;
     display: flex;
